@@ -1,0 +1,23 @@
+.pictureCard {
+  position: relative;
+}
+.pictureCard__info {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: -83px;
+  position: absolute;
+  width: fit-content;
+}
+
+.pictureCard__infoDetails {
+  padding: 12px 15px;
+  background-color: white;
+  font-weight: bold;
+}
+.pictureCard__infoPrice {
+  padding: 5px 12px;
+  font-size: 26px;
+  background-color: white;
+  width: fit-content;
+  font-weight: bold;
+}

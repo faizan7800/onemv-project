@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+.navbar__logo img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+.navbar__items ul {
+  display: flex;
+  align-items: center;
+}
+.navbar__items ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  letter-spacing: 2px;
+}
+.navbar__search {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.navbar__search input {
+  height: 42px;
+  font-size: 12px;
+  width: 488px;
+  border: 1px solid #eaeaea;
+  color: #999999;
+  padding: 7px 40px 8px 12px;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  outline: none;
+}
+.navbar__search .MuiSvgIcon-root {
+  margin-left: -30px;
+}

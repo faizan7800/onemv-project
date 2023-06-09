@@ -1,0 +1,15 @@
+.frontpage {
+  width: 100vw;
+}
+.frontpage__flexTwo {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.frontpage__flexThree {
+  display: flex;
+  margin-top: -4px;
+}
+.footerContent {
+  width: 1340px;
+  padding: 30px 40px;
+}
